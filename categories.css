@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    z-index: 1;
+    position: sticky;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+    color: white;
+    
+}  
+.flowers{
+    font-size: 30px;
+    font-family: cursive;
+}  
+
+ul{
+      list-style-type: none;
+      display: flex;
+      
+      
+}
+
+ul li{
+    color: white;
+    padding: 0 30px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+
+.cart{
+    display: flex;
+    gap: 30px;
+}
+.birthday{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(255, 182, 193, 0.45);
+}
+.birthday h2{
+    padding: 20px 25px 10px;
+    font-size: 30px;
+}
+.birthday h3{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkgreen;
+}
+.birthday p{
+    padding: 0px 40px;
+    font-size: 15px;
+}
+.birthday-images{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+.bridal{
+    width: 100%;
+    height: 550px;
+}
+.bridal h2{
+    padding: 20px 25px 10px;
+    font-size: 30px;
+}
+.bridal h3{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkgreen;
+}
+.bridal p{
+    padding: 0px 40px;
+    font-size: 15px;
+}
+.bridal-images{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+.anniversary{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(255, 182, 193, 0.45);
+}
+.anniversary h2{
+    padding: 20px 25px 10px;
+    font-size: 30px;
+}
+.anniversary h3{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkgreen;
+}
+.anniversary p{
+    padding: 0px 40px;
+    font-size: 15px;
+}
+.anniversary-images{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+.funeral{
+    width: 100%;
+    height: 550px;
+}
+.funeral h2{
+    padding: 20px 25px 10px;
+    font-size: 30px;
+}
+.funeral h3{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkgreen;
+}
+.funeral p{
+    padding: 0px 40px;
+    font-size: 15px;
+}
+.funeral-images{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+.customize{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(255, 182, 193, 0.219);
+    
+}
+.customize h2{
+    padding: 20px 25px 10px;
+    font-size: 30px;
+}
+.customize h3{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkgreen;
+}
+.customize p{
+    padding: 0px 40px;
+    font-size: 15px;
+}
+.customize-images{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    /* float: left; */
+    background-color: pink;
+    width: 100%;
+    height: 300px;
+}
+.footer h3{
+    padding: 20px;
+    margin-right: 200px;
+    /* display: flex; */
+    
+    
+    /* float: right; */
+}
+.info{
+    list-style-type: none;
+    line-height: 2;
+}
+.con{
+    list-style-type: none;
+    line-height: 2;
+}
+.form-area{
+    position: relative;
+}
+input{
+    width: 200px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
+.footer-text button{
+    width: 100px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 190px;
+    top: 10px;
+}
+.icon{
+    gap: 30px;
+    display: flex;
+}
+
+
+@media (max-width:768){
+    .footer{
+        width:100%
+    }
+
+}
